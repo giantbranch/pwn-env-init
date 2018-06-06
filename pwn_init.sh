@@ -21,5 +21,6 @@ sudo apt-get source libc6-dev
 # install pwntools
 sudo apt-get -y install python python-pip
 pip install pwntools
+echo "Good, Enjoy it."
 
 
