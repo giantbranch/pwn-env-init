@@ -8,7 +8,7 @@ dpkg --add-architecture i386
 sudo apt-get update
 sudo apt-get -y install lib32z1 lib32ncurses5
 # maybe git？
-sudo apt-get -y install git
+sudo apt-get -y install git gdb
 # install pwndbg
 git clone https://github.com/pwndbg/pwndbg
 cd pwndbg
