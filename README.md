@@ -10,5 +10,5 @@ CTF PWN environment one-click build script
 # Use
 
 ```
-wget https://raw.githubusercontent.com/giantbranch/pwn-env-init/master/pwn_init.sh | sh
+wget https://raw.githubusercontent.com/giantbranch/pwn-env-init/master/pwn_init.sh >  pwn_init.sh && chmod +x pwn_init.sh && ./pwn_init.sh
 ```
