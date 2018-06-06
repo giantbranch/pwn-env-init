@@ -9,3 +9,6 @@ CTF PWN environment one-click build script
 
 # Use
 
+```
+wget https://github.com/giantbranch/pwn-env-init/blob/master/pwn_init.sh | sh
+```
