@@ -6,7 +6,7 @@ sudo sed -i 's/# deb-src/deb-src/' "/etc/apt/sources.list"
 # support 32 bit
 dpkg --add-architecture i386
 sudo apt-get update
-sudo apt-get -y install lib32z1 lib32ncurses5
+sudo apt-get -y install lib32z1
 # maybe git？
 sudo apt-get -y install git gdb
 # install pwndbg
