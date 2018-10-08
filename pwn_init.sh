@@ -9,7 +9,8 @@ echo -e "[global]\nindex-url = https://pypi.tuna.tsinghua.edu.cn/simple" >  ~/.p
 # support 32 bit
 dpkg --add-architecture i386
 sudo apt-get update
-sudo apt-get -y install lib32z1
+# sudo apt-get -y install lib32z1
+sudo apt-get -y install libc6-i386
 # maybe git？
 sudo apt-get -y install git gdb
 # install pwndbg
