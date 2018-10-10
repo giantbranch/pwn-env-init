@@ -4,7 +4,7 @@ CTF PWN 做题环境一键搭建脚本
 
 CTF PWN environment one-click build script
 
-理论上适用于debian系的linux x64系统，但强烈建议在kali x64 ,Ubuntu系统上安装使用
+理论上适用于debian系的linux x64系统，但强烈建议在kali x64 ,Ubuntu x64系统上安装使用
 
 
 # Use
