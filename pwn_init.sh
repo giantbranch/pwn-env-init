@@ -1,6 +1,8 @@
 #!/bin/bash
 
 cd ~/
+# change sourse to ustc
+sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 # change sourse —— deb-src 
 sudo sed -i 's/# deb-src/deb-src/' "/etc/apt/sources.list"
 # change pip source
@@ -25,4 +27,15 @@ sudo apt-get source libc6-dev
 # install pwntools
 sudo apt-get -y install python python-pip
 pip install pwntools
-echo "Good, Enjoy it."
+# download 
+git clone https://github.com/niklasb/libc-database.git ~/libc-database
+echo "Do you want to download libc-database now(Y/n)?"
+read input
+if [[ $input = "n" ]] || [[ $input = "N" ]]; then
+	echo "you can cd ~/libc-database and run ./get to download the libc at anytime you want"
+else
+	cd ~/libc-database && ./get
+fi
+echo "========================================="
+echo "=============Good, Enjoy it.============="
+echo "========================================="

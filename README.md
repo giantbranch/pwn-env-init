@@ -21,3 +21,10 @@ chmod +x pwn_init.sh
 2. 下载了libc6的源码，方便源码调试（可看这https://blog.csdn.net/u012763794/article/details/78457973）
 3. 给gdb装上pwndbg和peda插件
 4. 安装pwntools
+5. 下载libc-database
+
+# Update
+
+20181027：	增加下载libc-database	，并修改sources.list为中科大
+
+20181003：	修改pip源为清华源，加快pip的安装速度
