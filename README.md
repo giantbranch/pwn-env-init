@@ -27,4 +27,4 @@ chmod +x pwn_init.sh
 
 20181027：	增加下载libc-database	，并修改sources.list为中科大
 
-20181003：	修改pip源为清华源，加快pip的安装速度
+20181003：	修改pip源为豆瓣源，加快pip的安装速度
