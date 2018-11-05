@@ -2,7 +2,7 @@
 
 cd ~/
 # change sourse to ustc
-sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+sudo  sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 # change sourse —— deb-src 
 sudo sed -i 's/# deb-src/deb-src/' "/etc/apt/sources.list"
 # change pip source
