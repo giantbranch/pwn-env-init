@@ -25,6 +25,8 @@ sudo ./pwn_init.sh
 
 # Update
 
+20181105：   竟然忘了安装one_gadget
+
 20181027：   增加下载libc-database
 
 20181003：   修改pip源为豆瓣源，加快pip的安装速度

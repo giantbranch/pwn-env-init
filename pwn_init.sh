@@ -30,6 +30,9 @@ sudo apt-get source libc6-dev
 # install pwntools
 sudo apt-get -y install python python-pip
 pip install pwntools
+# install one_gadget
+sudo apt-get -y install ruby
+sudo gem install one_gadget
 # download 
 git clone https://github.com/niklasb/libc-database.git ~/libc-database
 echo "Do you want to download libc-database now(Y/n)?"
