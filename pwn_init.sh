@@ -10,7 +10,7 @@ read test
 sudo sed -i 's/# deb-src/deb-src/' "/etc/apt/sources.list"
 # change pip source
 # mkdir ~/.pip
-# echo -e "[global]\nindex-url = https://pypi.douban.com/simple/" >  ~/.pip/pip.conf
+# echo -e "[global]\nindex-url = https://pypi.douban.com/simple/\n[install]\ntrusted-host = pypi.douban.com" >  ~/.pip/pip.conf
 # support 32 bit
 dpkg --add-architecture i386
 sudo apt-get update
