@@ -28,3 +28,7 @@ sudo ./pwn_init.sh
 20181027：	增加下载libc-database	，并修改sources.list为中科大
 
 20181003：	修改pip源为豆瓣源，加快pip的安装速度
+
+# Attention
+
+I suggest you modify the /etc/apt/sources.list file to speed up the download.
