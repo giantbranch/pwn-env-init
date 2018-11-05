@@ -6,6 +6,14 @@ CTF PWN environment one-click build script
 
 理论上适用于debian系的linux x64系统，但强烈建议在kali x64 ,Ubuntu x64系统上安装使用
 
+如果怕麻烦的，可以直接下载我配置好的Ubuntu 16.04
+
+链接：https://pan.baidu.com/s/1u_D5duXHlfnC5jG0M1QFSQ 
+提取码：pxn5 
+
+截图：
+
+![](https://raw.githubusercontent.com/giantbranch/pwn-env-init/master/img/png.png)
 
 # Use
 
