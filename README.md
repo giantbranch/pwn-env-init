@@ -18,7 +18,7 @@ sudo ./pwn_init.sh
 # Instructions
 
 1. 为64位系统提供32位运行环境支撑
-2. 下载了libc6的源码，方便源码调试（可看这https://blog.csdn.net/u012763794/article/details/78457973）
+2. 下载了libc6的源码，方便源码调试（ 可看这https://blog.csdn.net/u012763794/article/details/78457973 ）
 3. 给gdb装上pwndbg和peda插件
 4. 安装pwntools
 5. 下载libc-database
