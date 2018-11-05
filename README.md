@@ -11,6 +11,8 @@ CTF PWN environment one-click build script
 链接：https://pan.baidu.com/s/1u_D5duXHlfnC5jG0M1QFSQ 
 提取码：pxn5 
 
+**账号密码：** giantbranch:giantbranch
+
 截图：
 
 ![](https://raw.githubusercontent.com/giantbranch/pwn-env-init/master/img/png.png)
