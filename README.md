@@ -8,8 +8,8 @@ CTF PWN environment one-click build script
 
 **如果怕麻烦的，可以直接下载我配置好的Ubuntu 16.04，为VMware导出的ovf格式**
 
-链接：https://pan.baidu.com/s/1u_D5duXHlfnC5jG0M1QFSQ 
-提取码：pxn5 
+链接：https://pan.baidu.com/s/1Ia8NPcXy414QOaiH14T3sQ 
+提取码：kypa 
 
 **账号密码：** giantbranch:giantbranch
 
