@@ -17,6 +17,14 @@ CTF PWN environment one-click build script
 
 ![](https://raw.githubusercontent.com/giantbranch/pwn-env-init/master/img/png.png)
 
+**虚拟机下载的源码不能源码调试有bug，可通过一下命令修复：**
+
+```
+rm glibc-2.23* -rf
+sudo apt update
+sudo apt source libc6-dev
+```
+
 # Use
 
 ```
