@@ -1,5 +1,7 @@
 # pwn-env-init
 
+**blog**:https://www.giantbranch.cn/
+
 CTF PWN 做题环境一键搭建脚本
 
 CTF PWN environment one-click build script
