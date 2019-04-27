@@ -6,7 +6,7 @@ CTF PWN 做题环境一键搭建脚本
 
 CTF PWN environment one-click build script
 
-理论上适用于debian系的linux x64系统，但强烈建议在kali x64 ,Ubuntu x64系统上安装使用
+理论上适用于debian系的linux x64系统，但强烈建议在Ubuntu x64系统上安装使用
 
 **如果怕麻烦的，可以直接下载我配置好的Ubuntu 16.04，为VMware导出的ovf格式**
 
@@ -14,6 +14,7 @@ CTF PWN environment one-click build script
 提取码：kypa 
 
 **账号密码：** giantbranch:giantbranch
+（root密码可以通过sudo passwd root自行修改）
 
 截图：
 
