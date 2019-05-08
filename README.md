@@ -56,3 +56,12 @@ sudo ./pwn_init.sh
 # Attention
 
 I suggest you modify the /etc/apt/sources.list file to speed up the download.
+
+# Reward
+
+paypal: https://www.paypal.me/giantbranch
+
+![自愿打赏][1]
+
+
+  [1]: http://pic.giantbranch.cn/pic/1551450728861.jpg
