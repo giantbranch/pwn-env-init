@@ -34,6 +34,7 @@ echo "source ~/peda/peda.py" >> ~/.gdbinit
 sudo apt-get source libc6-dev
 # install pwntools
 sudo apt-get -y install python python-pip
+pip install more-itertools==5.0.0
 pip install pwntools
 # install one_gadget
 sudo apt-get -y install ruby

@@ -51,7 +51,7 @@ sudo ./pwn_init.sh
 
 20181027：   增加下载libc-database
 
-20181003：   修改pip源为豆瓣源，加快pip的安装速度
+20181003：   修改pip源为豆瓣源，加快pip的安装速度，假如安装的地方不在中国，可以注释掉！
 
 # Attention
 
@@ -64,4 +64,4 @@ paypal: https://www.paypal.me/giantbranch
 ![自愿打赏][1]
 
 
-  [1]: http://pic.giantbranch.cn/pic/1551450728861.jpg
+[1]: http://pic.giantbranch.cn/pic/1551450728861.jpg

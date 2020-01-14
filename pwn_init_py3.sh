@@ -33,8 +33,8 @@ echo "source ~/peda/peda.py" >> ~/.gdbinit
 # download the libc source to current directory(you can use gdb with this example command: directory ~/glibc-2.24/malloc/)
 sudo apt-get source libc6-dev
 # install pwntools
-sudo apt-get -y install python python-pip
-pip install pwntools
+sudo apt-get -y install python python-pip python3 python3-pip
+pip3 install pwntools
 # install one_gadget
 sudo apt-get -y install ruby
 sudo gem install one_gadget
