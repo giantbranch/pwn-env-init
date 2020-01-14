@@ -30,11 +30,20 @@ sudo apt source libc6-dev
 
 # Use
 
+### python2
+
 ```
-wget https://raw.githubusercontent.com/giantbranch/pwn-env-init/master/pwn_init.sh
-chmod +x pwn_init.sh
-sudo ./pwn_init.sh
+wget https://raw.githubusercontent.com/giantbranch/pwn-env-init/master/pwn_init_py2.sh
+chmod +x pwn_init_py2.sh
+sudo ./pwn_init_py2.sh
 ```
+### python3
+```
+wget https://raw.githubusercontent.com/giantbranch/pwn-env-init/master/pwn_init_py3.sh
+chmod +x pwn_init_py3.sh
+sudo ./pwn_init_py3.sh
+```
+而pwn_init.sh就作为备份文件吧
 
 # Instructions
 
@@ -46,6 +55,8 @@ sudo ./pwn_init.sh
 6. 下载libc-database
 
 # Update
+
+20200114：   最近在Ubuntu 19.04运行脚本，安装pwntools有问题，more-itertools已经不支持python2了，所以分成py2和py3版本，python2的解决方案是先安装支持python2的more-itertools 5.0.0
 
 20181105：   竟然忘了安装one_gadget
 
