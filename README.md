@@ -64,6 +64,8 @@ sudo ./pwn_init_py3.sh
 
 20181003：   修改pip源为豆瓣源，加快pip的安装速度，假如安装的地方不在中国，可以注释掉！
 
+20180606：   初始化仓库，上传第一版
+
 # Attention
 
 I suggest you modify the /etc/apt/sources.list file to speed up the download.
