@@ -9,7 +9,7 @@ cd ~/
 # change sourse to ustc
 echo "I suggest you modify the /etc/apt/sources.list file to speed up the download."
 echo "Press Enter to continue~"
-read test
+read -t 5 test
 #sudo  sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 # change sourse —— deb-src 
 sudo sed -i 's/# deb-src/deb-src/' "/etc/apt/sources.list"
