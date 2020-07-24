@@ -1,10 +1,14 @@
 #!/bin/bash
 
 echo "Author : giantbranch "
-echo
+echo ""
 echo "Github : https://github.com/giantbranch/pwn-env-init"
-echo
+echo ""
 
+echo "This is the previous script, please use pwn_init_py2.sh or pwn_init_py3.sh"
+echo "If you want to install python2 pwn env, execute pwn_init_py2.sh"
+echo "If you want to install python3 pwn env, execute pwn_init_py3.sh"
+exit 1
 cd ~/
 # change sourse to ustc
 echo "I suggest you modify the /etc/apt/sources.list file to speed up the download."

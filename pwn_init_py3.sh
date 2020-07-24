@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eux
+
 echo "Author : giantbranch "
 echo
 echo "Github : https://github.com/giantbranch/pwn-env-init"
@@ -14,7 +16,9 @@ read -t 5 test
 # change sourse —— deb-src 
 sudo sed -i 's/# deb-src/deb-src/' "/etc/apt/sources.list"
 # change pip source
-mkdir ~/.pip
+if [ ! -d ~/.pip ]; then
+  mkdir ~/.pip
+fi
 echo -e "[global]\nindex-url = https://pypi.douban.com/simple/\n[install]\ntrusted-host = pypi.douban.com" >  ~/.pip/pip.conf
 # support 32 bit
 dpkg --add-architecture i386
