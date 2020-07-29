@@ -30,14 +30,16 @@ sudo apt source libc6-dev
 
 # Use
 
-### python2
+用python2的选py2,用python3的选py3
+
+### python2 pwn env
 
 ```
 wget https://raw.githubusercontent.com/giantbranch/pwn-env-init/master/pwn_init_py2.sh
 chmod +x pwn_init_py2.sh
 sudo ./pwn_init_py2.sh
 ```
-### python3
+### python3 pwn env
 ```
 wget https://raw.githubusercontent.com/giantbranch/pwn-env-init/master/pwn_init_py3.sh
 chmod +x pwn_init_py3.sh
