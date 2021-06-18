@@ -1,3 +1,13 @@
+**写于20210617**: 
+
+怎么说呢，因为一些原因今天把这个仓库临时删了，再重建，但是我忽略了一点，这个项目的star是153，fork是49，就这样没了，哈哈
+
+或许这就是人生，看开点吧，塞翁失马焉知非福，应该什么时候都不缺重头再来的勇气
+
+还好谷歌有快照，下面是截图
+
+https://raw.githubusercontent.com/giantbranch/pwn-env-init/master/img/google-cache.png
+
 # pwn-env-init
 
 **blog**:https://www.giantbranch.cn/
