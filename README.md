@@ -6,6 +6,8 @@
 
 还好谷歌有快照，下面是截图
 
+![image-20210618104843727](img/image-20210618104843727.png)
+
 https://raw.githubusercontent.com/giantbranch/pwn-env-init/master/img/google-cache.png
 
 # pwn-env-init
